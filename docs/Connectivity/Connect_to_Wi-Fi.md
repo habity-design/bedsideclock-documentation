@@ -4,7 +4,7 @@ Connect your bedside clock to your home Wi-Fi in order to use features such as A
 
 ## Initial setup
 
-Your clock has its own Wi-Fi that it uses to do the initial setup. Go to your Wi-Fi settings on your phone, tablet, or computer and look for "Habity setup_0123" and connect to the Wi-Fi.
+Your clock has its own Wi-Fi that it uses to do the initial setup. Go to your Wi-Fi settings on your phone, tablet, or computer and look for "Habity setup_01234" and connect to the Wi-Fi.
 
 > [!NOTE]
 > **Can't see the Wi-Fi name?** If you don't see the Wi-Fi name make sure that your clock is connected to power and Wi-Fi is enabled on your bedside clock.
