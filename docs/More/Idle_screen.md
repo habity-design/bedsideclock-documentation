@@ -4,7 +4,7 @@ The idle screen is the "face screen" you see when the clock has been untouched f
 
 The face minimizes the current time and reminds you to focus on the calm present.
 
-[![Idle-screen.png](https://github.com/habity/bedsideclock-documentation/raw/main/docs/Assets/Idle-screen.png)](/habity/bedsideclock-documentation/blob/main/docs/Assets/Idle-screen.png)
+[![Idle-screen.png](https://github.com/habity-design/bedsideclock-documentation/raw/main/docs/Assets/Idle-screen.png)](/habity-design/bedsideclock-documentation/blob/main/docs/Assets/Idle-screen.png)
 
 ## Deactivate
 

@@ -15,7 +15,7 @@ Your clock has its own Wi-Fi that it uses to do the initial setup. Go to your Wi
 
 Once connected to the clock's own Wi-Fi go to "More" > "Wi-Fi" > "Information" to see the web URL you need to visit in your browser. It will be something like "habity.local" or <https://192.168.4.1>
 
-[![habity-setup_192.168.4.1.png](https://github.comhabity/bedsideclock-documentation/raw/main/docs/Assets/habity-setup_192.168.4.1.png)](/habity/bedsideclock-documentation/blob/main/docs/Assets/habity-setup_192.168.4.1.png)
+[![habity-setup_192.168.4.1.png](https://github.comhabity/habity-design/bedsideclock-documentation/raw/main/docs/Assets/habity-setup_192.168.4.1.png)](/habity-design/bedsideclock-documentation/blob/main/docs/Assets/habity-setup_192.168.4.1.png)
 
 On this webpage you can see a list of available Wi-Fi networks. Select your home Wi-Fi and enter its password and press "Save & reboot".
 

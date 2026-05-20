@@ -11,7 +11,7 @@ Most wall power adapters (like your phone charger) should work for this purpose.
 
 Once the clock has started charging its built-in battery it will update the display to "Press and hold". Keep it connected to power.
 
-[![travel-lock-1.png](https://github.com/ptrarvad/habity/bedsideclock-documentation/raw/main/docs/Assets/travel-lock-1.png)](/habity/bedsideclock-documentation/blob/main/docs/Assets/travel-lock-1.png)
+[![travel-lock-1.png](https://github.com/habity-design/bedsideclock-documentation/raw/main/docs/Assets/travel-lock-1.png)](/habity-design/bedsideclock-documentation/blob/main/docs/Assets/travel-lock-1.png)
 
 The clock is still in travel lock mode. To unlock it press and hold the button on the selector wheel for at least 5 sec. The display will blink a few times and display a time once it's unlocked and ready.
 
@@ -26,7 +26,7 @@ Now that your clock is connected to power you might need to set the correct date
 **Step 3** Choose between "Manual" or "Automatic" setup by pressing the selector wheel and start setting up the date & time by selecting "Settings" and follow the instructions.
 
 > [!NOTE]
-> Automatic date & time requires a [Wi-Fi connection](https://github.com/habity/bedsideclock-documentation/blob/main/Connectivity/Connect_to_Wi-Fi). You must connect your bedside clock to Wi-Fi to use this feature.
+> Automatic date & time requires a [Wi-Fi connection](https://github.com/habity-design/bedsideclock-documentation/blob/main/Connectivity/Connect_to_Wi-Fi). You must connect your bedside clock to Wi-Fi to use this feature.
 
 ## Daylight saving
 
