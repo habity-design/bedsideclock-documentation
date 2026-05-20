@@ -1,5 +1,5 @@
 export default {
-  title: "Habity docs",
+  title: "Habity bedside clock manual & support",
   base: '/',
   appearance: 'auto',
   head: [
