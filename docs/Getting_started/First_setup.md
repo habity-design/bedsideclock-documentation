@@ -26,7 +26,7 @@ Now that your clock is connected to power you might need to set the correct date
 **Step 3** Choose between "Manual" or "Automatic" setup by pressing the selector wheel and start setting up the date & time by selecting "Settings" and follow the instructions.
 
 > [!NOTE]
-> Automatic date & time requires a [Wi-Fi connection](Connectivity/Connect_to_Wi-Fi). You must connect your bedside clock to Wi-Fi to use this feature.
+> Automatic date & time requires a [Wi-Fi connection](/Connectivity/Connect_to_Wi-Fi). You must connect your bedside clock to Wi-Fi to use this feature.
 
 ## Daylight saving
 

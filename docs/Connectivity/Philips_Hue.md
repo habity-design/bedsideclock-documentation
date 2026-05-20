@@ -6,7 +6,7 @@ Your bedside clock can integrate with Philips Hue Smart Home Lighting. Supportin
 
 This guide describes how to connect Philips Hue. It is necessary to connect to your home Wi-Fi beforehand. See guide here.
 
-**Step 1** Locate the "Hue" tab on the [web control site](https://github.com/habity-design/bedsideclock-documentation/blob/main/Connectivity/Connect_to_Wi-Fi).
+**Step 1** Locate the "Hue" tab on the [web control site](/Connectivity/Connect_to_Wi-Fi).
 
 **Step 2** Discover your bridge. The clock will automatically find your bridge on the network.
 
