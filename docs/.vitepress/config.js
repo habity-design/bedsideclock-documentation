@@ -1,6 +1,6 @@
 export default {
   title: "Habity docs",
-  base: '/bedsideclock-documentation/',
+  base: '/',
   appearance: 'auto',
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
