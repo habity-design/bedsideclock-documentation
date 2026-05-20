@@ -1,2 +1,2 @@
 # habity-bedsideclock-docs
-Documentation for Habity Bedside Clock
+Documentation for Habity Bedside Clock.
