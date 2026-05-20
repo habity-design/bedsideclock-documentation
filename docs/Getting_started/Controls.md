@@ -1,6 +1,6 @@
 # Controls
 
-Learn about the different controls on your bedside clock. [![controls.png](https://github.com/ptrarvad/habity-bedsideclock-docs/raw/main/docs/Assets/controls.png)](/ptrarvad/habity-bedsideclock-docs/blob/main/docs/Assets/controls.png)
+Learn about the different controls on your bedside clock. [![controls.png](https://github.com/habity/bedsideclock-documentation/raw/main/docs/Assets/controls.png)](/habity/bedsideclock-documentation/blob/main/docs/Assets/controls.png)
 
 ## Stop button
 

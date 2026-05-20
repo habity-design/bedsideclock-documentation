@@ -4,7 +4,7 @@ The travel lock function is useful when you want to avoid any buttons accidental
 
 Helpful for traveling and storing the clock for longer periods.
 
-[![travel-lock.png](https://github.com/ptrarvad/habity-bedsideclock-docs/raw/main/docs/Assets/travel-lock.png)](/ptrarvad/habity-bedsideclock-docs/blob/main/docs/Assets/travel-lock.png)
+[![travel-lock.png](https://github.com/habity/bedsideclock-documentation/raw/main/docs/Assets/travel-lock.png)](/habity/bedsideclock-documentation/blob/main/docs/Assets/travel-lock.png)
 
 ## How to lock
 
