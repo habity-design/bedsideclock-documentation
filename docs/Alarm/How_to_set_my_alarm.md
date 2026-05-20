@@ -29,7 +29,7 @@ By default this function is off. Choose between 1 minute, 5 minutes, 10 minutes,
 The setting is set for all enabled alarms no matter the schedule.
 
 > **Note**
-> Learn how to connect your [smart home lights](https://github.com/habity-design/bedsideclock-documentation/blob/main/Connectivity/Philips_Hue) to work in conjunction with the built-in wake-up light.
+> Learn how to connect your [smart home lights](/Connectivity/Philips_Hue) to work in conjunction with the built-in wake-up light.
 
 ## Confirm your alarm
 
@@ -42,4 +42,4 @@ Times are shown in sequential order.
 
 ## Controls
 
-Learn about [Controls](https://github.com/habity-design/bedsideclock-documentation/blob/main/Getting_started/Controls) for stopping, snoozing, and skipping alarm.
+Learn about [Controls](/Getting_started/Controls) for stopping, snoozing, and skipping alarm.
