@@ -3,14 +3,11 @@ export default {
   base: '/',
   appearance: 'auto',
   head: [
-        [
-      'img',
-      {
-        src: 'https://umami.habity.design/p/IKXSiVEq4',
-        style: 'display:none',
-        referrerpolicy: 'no-referrer-when-downgrade',
-      }
-    ]
+[
+  'script',
+  {},
+  `var img = new Image(); img.src = 'https://umami.habity.design/p/IKXSiVEq4'; img.referrerPolicy = 'no-referrer-when-downgrade';`
+],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap', rel: 'stylesheet' }]
