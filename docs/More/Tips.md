@@ -9,3 +9,6 @@ It is recommended to keep the clock connected to USB power at all times, as it w
 The expected runtime on battery only power is 3 days.
 
 Certain functions such as the nightlight and sleep sounds will drain the battery faster and thereby shorten the expected runtime.
+
+## Avoid direct sunlight
+Please avoid exposing your Habity bedside clock to direct sunlight for extended periods. Prolonged exposure can cause colors to fade and affect the performance of the e-paper display, leading to unpredictable behavior of the ink particles.
