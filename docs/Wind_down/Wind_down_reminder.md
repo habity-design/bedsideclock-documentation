@@ -1,6 +1,6 @@
 # Wind down reminder setup
 
-The wind down reminder will display a message on your clock at the set time for you to wind down. You can either play a soundscape or dismiss the message. [![wind-down.png](https://github.com/habity-design/bedsideclock-ducomentation/raw/main/docs/Assets/wind-down.png)](/habity-design/bedsideclock-documentation/blob/main/docs/Assets/wind-down.png)
+The wind down reminder will display a message on your clock at the set time for you to wind down. You can either play a soundscape or dismiss the message. [![wind-down.png](https://github.com/habity-design/bedsideclock-documentation/raw/main/docs/Assets/wind-down.png)](/habity-design/bedsideclock-documentation/blob/main/docs/Assets/wind-down.png)
 
 ## How to set up
 
