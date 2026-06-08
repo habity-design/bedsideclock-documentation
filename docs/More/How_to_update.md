@@ -4,7 +4,7 @@ New features might be available and waiting for you in the form of a new firmwar
 ## Prerequisites
 1. The clock is connected to a power source.
 2. The clock is [connected to your home Wi-Fi.](/Connectivity/Connect_to_Wi-Fi)
-3. The time and date must be set correctly.
+3. The time and date must be set to the present time.
 
 ## Checking for updates
 To check if there are any updates available:
