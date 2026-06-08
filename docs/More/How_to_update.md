@@ -18,3 +18,7 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 
 > [!NOTE]
 > Updating the firmware will delete your saved alarm times and schedules.
+
+
+## Unable to update firmware over Wi-Fi ?
+If you are unable to update from the web control page or the update fails, you can try the alternative [update webpage](https://habity-design.github.io/habity-updater/) from a computer. Simply connect your clock to your computer with a USB cable and click update.
