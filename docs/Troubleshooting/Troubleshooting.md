@@ -40,6 +40,9 @@ You can manually refresh the screen by restarting the clock.
 
 If your home Wi-Fi goes down and disconnects from your clock you can trigger a new network search by disconnecting it from USB power temporarily. Once your clock connects back to USB power it will try to look for any known Wi-Fi network and try to reconnect.
 
+## Unable to update firmware over Wi-Fi
+If you are unable to update from the web control page or the update fails, you can try the alternative [update webpage](https://habity-design.github.io/habity-updater/) from a computer. Simply connect your clock to your computer with a USB cable and click update.
+
 # Other issues
 
 > [!NOTE]
