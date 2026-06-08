@@ -9,7 +9,7 @@ Your clock might not have enough power to play audio. Please connect to a USB po
 Try again after the clock has been charging for some time.
 
 > [!NOTE]
-> It is recommended to update to the latest firmware version if you have no sound at all.>
+> It is recommended to update to the latest firmware version if you have no sound at all.
 
 ## Issue: Unresponsive
 
