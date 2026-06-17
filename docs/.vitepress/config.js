@@ -1,5 +1,6 @@
 export default {
   title: "Habity bedside clock manual & support",
+  description: "Set up your Habity bedside clock and make the most of every morning. Find guides, tips, and everything you need to get started.",
   base: '/',
   appearance: 'auto',
   head: [
