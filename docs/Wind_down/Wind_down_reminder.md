@@ -10,7 +10,7 @@ The time is when the message will appear. The message will auto dismiss after 20
 
 The sound saved is your preferred sound. You can choose to play your preferred sound when the reminder is active, or you can select another from the list.
 
-**Start playing sounds** When the wind down message appears you can choose to start the experience by pressing the encoder button.
+**Start playing sounds** When the wind down message appears you can choose to start the experience by pressing the selector button.
 
 Sounds will play for maximum 45 minutes. Any alarm during the playback will interrupt the sound.
 
