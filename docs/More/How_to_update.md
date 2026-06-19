@@ -20,9 +20,10 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 > Updating the firmware will delete your saved alarm times and schedules.
 
 
-### Changelog
+## Changelog
 
 **Update v1.0.7**
+
 Changes:
 - Fixes issue with alarms not being saved and alarms being deactivated.
 - Resolves performance issues when powered by battery.
