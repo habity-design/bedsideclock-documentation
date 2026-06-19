@@ -10,14 +10,17 @@ The stop button primarily functions as a stop button for active alarms.
 
 **Light toggle:** When an alarm is not active it functions as a light toggle for the built-in nightlight. Press it anytime to toggle it on/off.
 
-**Skip next alarm:** The stop button can also be used to skip your next alarm.
-If you have an alarm enabled, and it shows up on the watch face below the current time, then simply double press the stop button to disable that alarm.
+**Toggle alarm on/off:** The stop button can also be used to toggle your next alarm.
+If you have an alarm enabled, and it shows up on the watch face below the current time, then simply double press the stop button to disable that alarm. Another double press will enable the alarm again.
 
-This also works when the alarm is snoozed.
+This also works when the alarm is snoozed. Double-press stop to cancel the snooze timer.
+
+This functionality works in Repeat daily and Weekdays schedule modes.
 
 ## Snooze button
 
 Pressing snooze while an alarm is playing gives you another 5 minutes in bed. You can snooze as many times as needed.
+To cancel the snooze timer, you have to double-press stop button. This disables your alarm. To enable the alarm again, double-press the stop button.
 
 **Play sleep sounds** Quickly toggle on your last used sleep sound by double pressing the snooze button. A "zZ" icon will show in the upper right corner when sleep sounds are playing. Use the selector wheel to adjust the volume.
 

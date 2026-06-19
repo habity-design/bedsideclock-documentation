@@ -19,3 +19,16 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 > [!NOTE]
 > Updating the firmware will delete your saved alarm times and schedules.
 
+
+### Changelog
+
+**Update v1.0.7**
+Changes:
+- Fixes issue with alarms not being saved and alarms being deactivated.
+- Resolves performance issues when powered by battery.
+- The stop button now toggles on/off the next alarm when double-pressed in Repeat daily and Weekday schedule mode.
+- Double-press stop to cancel a snooze timer.
+- Improves battery efficiency in travel lock mode.
+
+Previously added:
+- Light brightness control.
