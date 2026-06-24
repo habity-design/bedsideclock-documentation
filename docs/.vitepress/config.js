@@ -68,7 +68,7 @@ export default {
         items: [
           { text: 'Connect to Wi-Fi', link: '/Connectivity/Connect_to_Wi-Fi' },
           { text: 'Philips Hue', link: '/Connectivity/Philips_Hue' },
-          { text: 'Home Assistant', link: '/Connectivity/Home_Assistant' }
+          { text: 'Home Assistant', link: '/Connectivity/Home_Assistant' },
           { text: 'Homey', link: '/Connectivity/Homey' }
         ]
       },
