@@ -22,6 +22,14 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 
 ## Changelog
 
+**Update v1.1.0**
+
+Changes:
+- Better navigation: The speed of the selector wheel, setting time, and selecting items have been improved and are now snappier than ever.
+- Philips Hue wake-light is now in sync with the alarm status (enabled/disabled).
+- Stability and 'e-paper ghosting' improvements.
+
+
 **Update v1.0.7**
 
 Changes:
