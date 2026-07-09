@@ -33,7 +33,7 @@ If you can see old information on your clock's display, for example text in a li
 This is normal for epaper technology as it moves physical particles up and down to display graphics.
 
 The clock will do a full refresh every 30 minutes, and when it switches to idle screen, and when you exit settings.
--
+
 
 Direct sunlight or extreme heat can cause the display to temporarily fade, and it is recommended to keep away from direct sunlight.
 
