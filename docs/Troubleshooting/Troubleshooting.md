@@ -26,15 +26,16 @@ In both cases; try to connect the clock to USB power and wait at least 30 minute
 
 If you are still experiencing issues after the clock has been connected to power for more than 30 minutes you may try to press the reboot button next to the USB-C port.
 
-## Issue: I can see old information on the display
+## Issue: Display is faded
 
 If you can see old information on your clock's display, for example text in a light grey color, it means your epaper display needs to refresh.
 
 This is normal for epaper technology as it moves physical particles up and down to display graphics.
 
-The clock will do a full refresh every 12 hours (03.00 and 15.00), when it switches to idle screen, and when you exit settings.
+The clock will do a full refresh every 30 minutes, and when it switches to idle screen, and when you exit settings.
+-
 
-You can manually refresh the screen by restarting the clock.
+Direct sunlight or extreme heat can cause the display to temporarily fade, and it is recommended to keep away from direct sunlight.
 
 ## Reconnect to Wi-Fi after power outages
 
