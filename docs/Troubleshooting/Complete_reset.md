@@ -29,6 +29,8 @@ The reset only happens when the battery is completely flat. Unplug your clock an
 
 Connect the clock to power. If it doesn't power on by itself, short-press the reboot button next to the USB-C port.
 
+Do not disconnect the power until you have completed the reset & update procedure. Preferably keep it connected for a full day or longer to charge the battery.
+
 ## Step 4: Confirm the reset worked
 
 Check the time on the display:
