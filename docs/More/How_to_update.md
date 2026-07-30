@@ -22,6 +22,12 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 
 ## Changelog
 
+
+**Update v1.1.1**
+
+- General stability improvements.
+- Philips Hue improvement to load scenes.
+
 **Update v1.1.0**
 
 Changes:
