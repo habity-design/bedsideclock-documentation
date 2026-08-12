@@ -17,7 +17,7 @@ The clock will automatically start downloading and installing the update. It's i
 When it's done updating, it will reboot and prompt you to unlock the [travel lock.](/More/Travel_lock) 
 
 > [!NOTE]
-> Updating the firmware will delete your saved alarm times and schedules.
+> Updating the firmware from v1.0.x to the latest version will delete your saved alarm times and schedules.
 
 
 ## Changelog
