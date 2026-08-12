@@ -33,6 +33,7 @@ This is a bigger update touching many improvements, changes to navigation, bette
 - New Philips Hue sunrise scene with dynamic colors ("Habity sunrise scene")
 - Cancel snooze by double-pressing stop button.
 - Exposing Wind Down event and light toggle in Home Assistant.
+- Better one-handed operations: You can now use the snooze button to select items in settings. 
 - Improved stability.
 
 **Update v1.1.1**
