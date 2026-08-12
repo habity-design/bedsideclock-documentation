@@ -22,6 +22,18 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 
 ## Changelog
 
+**Update v1.2.0**
+
+This is a bigger update touching many improvements, changes to navigation, better battery life, and other features. We recommend everyone to update.
+
+- New navigation
+- Better e-paper display handling resulting in less ghosting and sharper image.
+- Improved battery life - now lasting 2 weeks on a single charge.
+- Live preview of sounds while adjusting volume.
+- New Philips Hue sunrise scene with dynamic colors ("Habity sunrise scene")
+- Cancel snooze by double-pressing stop button.
+- Exposing Wind Down event and light toggle in Home Assistant.
+- Improved stability.
 
 **Update v1.1.1**
 
