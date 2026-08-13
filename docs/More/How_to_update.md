@@ -25,6 +25,9 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 **Update v1.2.0**
 
 This is a bigger update touching many improvements, changes to navigation, better battery life, and other features. We recommend everyone to update.
+> [!NOTE]
+> This update changes how the e-paper display works. It might take 1-3 days for your clock to adapt to the new update, and the display might look faded in the black areas but will return to normal afterwards. This process is due to physical ink particles needing to be adjusted by the new changes.
+
 
 - New navigation
 - Better e-paper display handling resulting in less ghosting and sharper image.
