@@ -85,6 +85,7 @@ export default {
         text: 'Troubleshooting',
         items: [
           { text: 'Troubleshooting', link: '/Troubleshooting/Troubleshooting' },
+          { text: 'Recovery mode', link: '/Troubleshooting/Recovery_mode'},
           { text: 'Factory Reset', link: '/Troubleshooting/Factory_reset' }
         ]
       }
