@@ -11,7 +11,7 @@ Try again after the clock has been charging for some time.
 > [!NOTE]
 > No sounds at all? [See here how to do a complete reset](/Troubleshooting/Complete_reset) to bring back the sounds.
 
-## Issue: Unresponsive
+## Issue: Unresponsive / Frozen
 
 If your clock is unresponsive or the display is stuck try rebooting the clock.
 Locate the pinhole reboot button next to the USB-C port on the back and press it once.
