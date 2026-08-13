@@ -1,6 +1,8 @@
 # Fix Missing Sounds or Silent Audio
 
 If your clock's sound list is empty or no audio plays, a *complete reset* followed by a firmware update will fix the issue. The latest firmware includes stability fixes that prevent it from happening again.
+> [!NOTE]
+> In version 1.2.1 you can instead use the [recovery mode](/troubleshooting/Recovery_mode) to get results faster.
 
 **Before you start:** The reset clears the current time, and the firmware update erases your saved alarm times. Make a note of your alarms so you can set them up again afterward.
 
