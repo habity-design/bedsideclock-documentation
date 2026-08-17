@@ -37,6 +37,7 @@ This is a bigger update touching many improvements, changes to navigation, bette
 - Cancel snooze by double-pressing stop button.
 - Exposing Wind Down event and light toggle in Home Assistant.
 - Better one-handed operations: You can now use the snooze button to select items in settings. 
+- Alarm tones ring for a longer period before stopping.
 - Improved stability.
 
 **Update v1.1.1**
