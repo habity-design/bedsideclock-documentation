@@ -37,7 +37,7 @@ The clock will do a full refresh every 30 minutes, and when it switches to idle 
 Direct sunlight or extreme heat can cause the display to temporarily fade, and it is recommended to keep away from direct sunlight.
 
 > [!NOTE]
-> If the faded display happend after updating to version 1.2.0 then you want to try the [complete reset method](/Troubleshooting/rComplete_reset).
+> If the faded display happend after updating to version 1.2.0 then you want to try the [complete reset method](/Troubleshooting/Complete_reset).
 
 ## Reconnect to Wi-Fi after power outages
 
