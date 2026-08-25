@@ -7,13 +7,15 @@ This guide will help you set up your bedside clock and your new sleep routine.
 The clock should be in a travel mode upon setting it up for the first time. To unlock the clock and start using it you need to connect it to power via the included USB-C cable.
 Most wall power adapters (like your phone charger) should work for this purpose.
 
+Wait a few minutes until your clock displays "Press and hold →". We recommend keeping your clock connected to power for at least a few hours for the first charge.
+
 ## 2. Unlock the clock
 
-Once the clock has started charging its built-in battery it will update the display to "Press and hold". Keep it connected to power.
+Once the clock has started charging its built-in battery it will update the display to "Press and hold →".
 
 [![travel-lock-1.png](https://github.com/habity-design/bedsideclock-documentation/raw/main/docs/Assets/travel-lock-1.png)](/habity-design/bedsideclock-documentation/blob/main/docs/Assets/travel-lock-1.png)
 
-The clock is still in travel lock mode. To unlock it press and hold the button on the selector wheel for at least 5 sec. The display will blink a few times and display a time once it's unlocked and ready.
+The clock is still in travel lock mode. To unlock it press and hold the button on the selector wheel for at least 5 sec. The display will blink a few times and display the time once it's unlocked and ready to use.
 
 ## 3. Set the current date & time
 
