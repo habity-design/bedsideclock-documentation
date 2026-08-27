@@ -33,7 +33,7 @@ The setting is set for all enabled alarms no matter the schedule.
 
 ## Confirm your alarm
 
-Active alarms that are within the next 24 hours will show up below the current time on the main watch face.
+Active alarms that are within the next 24 hours will show up below the current time on the main clock face.
 
 If wind down reminder is enabled it will also show up below the current time.
 Times are shown in sequential order.
