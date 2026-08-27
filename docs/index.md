@@ -17,6 +17,18 @@ hero:
       link: https://habity.design
 
 features:
+  - icon: ☝️
+    title: First setup
+    details: Connect to power, unlock your clock, and set the date & time.
+    link: /Getting_started/First_setup.html
+  - icon: ⏰
+    title: Set my alarm
+    details: Wake up gently with a schedule that suits your routine.
+    link: /Alarm/How_to_set_my_alarm.html
+  - icon: 💡
+    title: Philips Hue
+    details: Sync your clock with Philips Hue for a connected wake-up light.
+    link: /Connectivity/Philips_Hue.html
   - icon: 📶
     title: Connect to Wi-Fi
     details: Get your bedside clock online in a few simple steps.
