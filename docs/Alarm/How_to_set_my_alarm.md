@@ -12,7 +12,7 @@ There are three schedules to choose between when it comes to how and when the al
 
 **Custom** Set individual alarm times for every day of the week. Individual days can be disabled/enabled.
 
-[![alarm-set-time.png](https://github.com/habity-design/bedsideclock-documentation/raw/main/docs/Assets/alarm-set-time.png)](/habity-design/bedsideclock-documentation/blob/main/docs/Assets/alarm-set-time.png)
+[![alarm-setings.png](https://github.com/habity-design/bedsideclock-documentation/raw/main/docs/Assets/alarm-settings.png)](/habity-design/bedsideclock-documentation/blob/main/docs/Assets/alarm-settings.png)
 
 Only one schedule can be used at a time. Alarm times saved in each schedule mode will persist when switching between schedules.
 
