@@ -17,13 +17,16 @@ hero:
       link: https://habity.design
 
 features:
-  - icon: 🌅
-    title: Gentle mornings
-    details: Customise your wake-up schedule with gentle alarm tones and a soft sunrise light.
-  - icon: 🌙
-    title: Better sleep
-    details: Fall asleep to natural sleep sounds. 
-  - icon: 📵
-    title: Phone-free nights
-    details: Replace your phone on the bedside table and build healthier habits.
+  - icon: 📶
+    title: Connect to Wi-Fi
+    details: Get your bedside clock online in a few simple steps.
+    link: /Connectivity/Connect_to_Wi-Fi.html
+  - icon: 🔄
+    title: How to update
+    details: Keep your clock running smoothly with the latest features and fixes.
+    link: /More/How_to_update.html
+  - icon: 🛠️
+    title: Troubleshooting
+    details: Running into an issue? Find quick fixes for common problems.
+    link: /Troubleshooting/Troubleshooting.html
 ---
