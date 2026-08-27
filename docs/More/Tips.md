@@ -8,7 +8,7 @@ The clock has a built-in battery to make sure a power outage in your home doesn'
 
 It is recommended to keep the clock connected to USB power at all times, as it will keep the battery fully charged.
 
-The expected runtime on battery is 2-3 days.
+The expected runtime on battery is 14 days.
 
 Certain functions such as the nightlight and sleep sounds will drain the battery faster and thereby shorten the expected runtime.
 
