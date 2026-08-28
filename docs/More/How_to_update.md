@@ -38,6 +38,8 @@ This is a bigger update touching many improvements, changes to navigation, bette
 - Exposing Wind Down event and light toggle in Home Assistant.
 - Better one-handed operations: You can now use the snooze button to select items in settings. 
 - Alarm tones ring for a longer period before stopping.
+- New 12h duration for sleep sounds.
+- New Wind down reminder with slow pulsing light. 
 - Improved stability.
 
 **Update v1.1.1**
