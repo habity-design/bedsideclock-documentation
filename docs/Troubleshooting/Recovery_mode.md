@@ -13,6 +13,6 @@ You know the recovery process is done when the e-paper display goes blank and th
 2. Go to More > Factory reset > Recovery mode (Can also be triggered from your [web control site](/Connectivity/Connect_to_Wi-Fi)).
 3. Disconnect from power and don't press any buttons. Let it sit uninterrupted for 24 hours, or until the display goes blank and the light turns off.
 
-After the recovery is done, you can reconnect the clock to power and start charging it again. Test that the clock is back in working order. Be aware that charging the battery after the recovery takes a full day.
+After the recovery is done, you can reconnect the clock to power and start charging it again. Please wait 30 minutes or more before you start using the clock again. Test that the clock is back in working order. Be aware that charging the battery after the recovery takes a full day.
 
 Tip: If you try to start recovery mode on a full battery, you want to wait until the battery icon shows in the upper left corner on your clock face before starting the process.
