@@ -2,6 +2,18 @@
 
 Connect your bedside clock to your home Wi-Fi in order to use features such as Automatic Date & Time setup, updating firmware, and connecting to smart homes.
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube.com/embed/0_d7GMbif8M"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
 ## Initial setup
 
 Your clock has its own Wi-Fi that it uses to do the initial setup. Go to your Wi-Fi settings on your phone, tablet, or computer and look for "Habity setup_01234" and connect to the Wi-Fi.
