@@ -2,6 +2,17 @@
 
 This guide will help you set up your bedside clock and your new sleep routine.
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube.com/embed/Pnx-QG83T3w"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
 ## 1. Connect to power
 
 The clock should be in a travel mode upon setting it up for the first time. To unlock the clock and start using it you need to connect it to power via the included USB-C cable.
