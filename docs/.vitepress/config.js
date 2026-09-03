@@ -9,7 +9,7 @@ export default {
   {},
   `var img = new Image(); img.src = 'https://umami.habity.design/p/IKXSiVEq4'; img.referrerPolicy = 'no-referrer-when-downgrade';`
 ],
-    ['script', { defer: '', src: 'https://umami.home.peterarvad.com/script.js', 'data-website-id': '27c6f850-6799-44fa-8862-2d05f6fe39c9' }],
+    ['script', { defer: '', src: 'https://umami.habity.design/script.js', 'data-website-id': '27c6f850-6799-44fa-8862-2d05f6fe39c9' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap', rel: 'stylesheet' }]
