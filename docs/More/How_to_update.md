@@ -22,7 +22,7 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 
 ## Changelog
 
-**Update v1.2.0**
+**Update v1.2.2**
 
 This is a bigger update touching many improvements, changes to navigation, better battery life, and other features. We recommend everyone to update.
 > [!NOTE]

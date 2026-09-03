@@ -9,13 +9,14 @@ If your clock's sound list is empty or no audio plays, a *complete reset* follow
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-    src="https://www.youtube.com/embed/k6tyEFbfxDc"
+    src="https://www.youtube.com/embed/YYPB14hvwDo"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
   </iframe>
 </div>
+
 
 ## Step 1: Set time & date to manual
 
