@@ -45,5 +45,3 @@ Now that your clock is connected to power you might need to set the correct date
 
 By using the automatic setup process your clock will switch to daylight saving time automatically as it syncs the time online every night.
 
-> [!NOTE]
-> It is recommended to always keep the bedside clock connected to power.
