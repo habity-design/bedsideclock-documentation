@@ -1,3 +1,4 @@
+# Wi-Fi features
 Connect your bedside clock to your home Wi-Fi in order to use features such as Automatic Date & Time setup, updating firmware, and connecting to smart homes.
 
 # Set up Wi-Fi from your computer
@@ -7,7 +8,10 @@ You can set up Wi-Fi at [connect.habity.design](https://connect.habity.design).
 2. Go to connect.habity.design in your browser.
 3. Select your Wi-Fi network and follow the on-screen instructions.
 
+
 # Set up Wi-Fi from your phone
+
+Follow the instructions below to connect to Wi-Fi using a phone.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe
