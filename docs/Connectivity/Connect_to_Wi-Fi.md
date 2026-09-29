@@ -1,7 +1,7 @@
 # Wi-Fi features
 Connect your bedside clock to your home Wi-Fi in order to use features such as Automatic Date & Time setup, updating firmware, and connecting to smart homes.
 
-# Set up Wi-Fi from your computer
+## Set up Wi-Fi from your computer
 You can set up Wi-Fi at [connect.habity.design](https://connect.habity.design).
 
 1. Connect your device to your computer with a USB cable.
@@ -9,7 +9,7 @@ You can set up Wi-Fi at [connect.habity.design](https://connect.habity.design).
 3. Select your Wi-Fi network and follow the on-screen instructions.
 
 
-# Set up Wi-Fi from your phone
+## Set up Wi-Fi from your phone
 
 Follow the instructions below to connect to Wi-Fi using a phone.
 
@@ -25,7 +25,7 @@ Follow the instructions below to connect to Wi-Fi using a phone.
 </div>
 
 
-## Initial setup
+### Initial setup
 
 Your clock has its own Wi-Fi that it uses to do the initial setup. Go to your Wi-Fi settings on your phone, tablet, or computer and look for "Habity setup_01234" and connect to the Wi-Fi.
 
@@ -34,7 +34,7 @@ Your clock has its own Wi-Fi that it uses to do the initial setup. Go to your Wi
 >
 > Go to "More" > "Wi-Fi" > "Settings" and check that "Wi-Fi is on".
 
-## Connect to your Wi-Fi
+### Connect to your Wi-Fi
 
 Once connected to the clock's own Wi-Fi go to "More" > "Wi-Fi" > "Information" to see the web URL you need to visit in your browser. It will be something like "habity.local" or <https://192.168.4.1>
 
@@ -45,7 +45,7 @@ On this webpage you can see a list of available Wi-Fi networks. Select your home
 > [!NOTE]
 > The Habity bedside clock can only connect to 2.4 GHz Wi-Fi. Most common home Wi-Fi should be accepted by default.
 
-## Web control
+### Web control
 
 Once your clock has rebooted, and Wi-Fi credentials were correct and successfully connected, you may visit the web control site.
 
