@@ -38,6 +38,7 @@ Need a new alarm tone or sleep sound? Visit the new 'Sounds' tab on the web cont
 - Gradual wake-light curve for a more gentle sunrise.
 - Lower volume for sleep and wind-down sounds.
 - Design tweaks throughout the settings.
+- New timezones added for automatic time.
 
 
 **Update v1.2.4**
