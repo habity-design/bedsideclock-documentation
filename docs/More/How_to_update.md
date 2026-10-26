@@ -31,6 +31,15 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 
 ## Changelog
 
+**Update 1.2.5**
+Need a new alarm tone or sleep sound? Visit the new 'Sounds' tab on the web control page to download fresh audio directly to your clock 🔊🌧️
+- Add new sounds through the web control.
+- Show today's date on the clock face (enable in settings).
+- Gradual wake-light curve for a more gentle sunrise.
+- Lower volume for sleep and wind-down sounds.
+- Design tweaks throughout the settings.
+
+
 **Update v1.2.4**
 - Automatic time settings now detect your time zone more reliably and stay accurate to the second.
 - Philips Hue and other smart home controls now work while your device is running on battery.
