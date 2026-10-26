@@ -32,6 +32,7 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 ## Changelog
 
 **Update 1.2.5**
+
 Need a new alarm tone or sleep sound? Visit the new 'Sounds' tab on the web control page to download fresh audio directly to your clock 🔊🌧️
 - Add new sounds through the web control.
 - Show today's date on the clock face (enable in settings).
