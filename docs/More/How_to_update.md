@@ -34,12 +34,15 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 **Update 1.2.5**
 
 Need a new alarm tone or sleep sound? Visit the new 'Sounds' tab on the web control page to download fresh audio directly to your clock 🔊🌧️
-- Add new sounds through the web control.
-- Show today's date on the clock face (enable in settings).
-- Gradual wake-light curve for a more gentle sunrise.
-- Lower volume for sleep and wind-down sounds.
+
+- Add new sounds from Habity on the new "Sound" tab via web control.
+- Show today's date on the watch face (enable it in settings).
+- Lower volume for sleep sounds and wind down sounds.
+- Gradual wake-light curve for a gentler sunrise.
 - Design tweaks throughout the settings.
-- New timezones added for automatic time.
+- Better overview of custom alarms.
+- Double-press stop to toggle all custom alarms. 
+- New time zones added for automatic time.
 
 
 **Update v1.2.4**
