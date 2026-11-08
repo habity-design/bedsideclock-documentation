@@ -1,7 +1,7 @@
 # How to update the firmware
 New features might be available and waiting for you in the form of a new firmware update. Follow these instructions to get started.
 
-## Update using computer
+## Update using a computer
 You can check for updates on [connect.habity.design](https://connect.habity.design).
 
 1. Connect your device to your computer with a USB cable.
