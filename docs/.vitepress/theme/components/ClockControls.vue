@@ -33,6 +33,7 @@
       :key="b.id"
       :id="'hc-panel-' + b.id"
       class="hc-panel"
+      :class="{ 'hc-white': b.whiteIcons }"
       role="tabpanel"
       :aria-labelledby="'hc-tab-' + b.id"
     >
@@ -88,6 +89,7 @@ const BUTTONS = [
   {
     id: 'snooze',
     short: 'Snooze',
+    whiteIcons: true,
     icon: '<svg viewBox="0 0 40 24"><rect x="3" y="7.5" width="34" height="9" rx="4.5" fill="currentColor" fill-opacity=".14" stroke="currentColor" stroke-width="1.6"/></svg>',
     where: 'The long bar on top.',
     actions: [
@@ -99,6 +101,7 @@ const BUTTONS = [
   {
     id: 'selector',
     short: 'Selector',
+    whiteIcons: true,
     icon: '<svg viewBox="0 0 40 24"><rect x="13" y="1.5" width="10" height="21" rx="5" fill="currentColor" fill-opacity=".14" stroke="currentColor" stroke-width="1.6"/><path d="M29.5 4Q37 12 29.5 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M26.3 4L30.3 1.5V6.5ZM26.3 20L30.3 17.5V22.5Z" fill="currentColor"/></svg>',
     where: 'The wheel on the right side. Turn it or press it in.',
     actions: [
@@ -224,6 +227,7 @@ export default {
   color: var(--hc-on-accent);
 }
 .hc-g svg { width: 18px; height: 18px; }
+.hc-white .hc-g { background: #ffffff; color: #252421; box-shadow: inset 0 0 0 1px var(--hc-divider); }
 .hc-gname {
   grid-area: gname;
   align-self: center;
