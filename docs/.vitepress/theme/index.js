@@ -3,6 +3,7 @@ import './style.css'
 import ClockControls from './components/ClockControls.vue'
 import AlarmSteps from './components/AlarmSteps.vue'
 import ChangelogEntry from './components/ChangelogEntry.vue'
+import IssueItem from './components/IssueItem.vue'
 
 export default {
   extends: DefaultTheme,
@@ -10,5 +11,6 @@ export default {
     app.component('ClockControls', ClockControls)
     app.component('AlarmSteps', AlarmSteps)
     app.component('ChangelogEntry', ChangelogEntry)
+    app.component('IssueItem', IssueItem)
   }
 }

@@ -31,4 +31,79 @@ When it's done updating, it will reboot and prompt you to unlock the [travel loc
 
 ## Changelog
 
-<ChangelogEntry/>
+
+<ChangelogEntry version="1.2.5" latest>
+
+Need a new alarm tone or sleep sound? Visit the new 'Sounds' tab on the web control page to download fresh audio directly to your clock 🔊🌧️
+
+- Add new sounds from Habity on the new "Sounds" tab via web control.
+- Show today's date on the watch face (enable it in settings).
+- Lower volume for sleep sounds and wind down sounds.
+- Gradual wake-light curve for a gentler sunrise.
+- Design tweaks throughout the settings.
+- Better overview of custom alarms.
+- Double-press stop to toggle all custom alarms.
+- New time zones added for automatic time.
+
+</ChangelogEntry>
+
+<ChangelogEntry version="1.2.4">
+
+You can now update your device and change its settings from a computer over USB at connect.habity.design
+
+- Automatic time settings now detect your time zone more reliably and stay accurate to the second.
+- Philips Hue and other smart home controls now work while your device is running on battery.
+- Improved stability and battery life.
+
+</ChangelogEntry>
+
+<ChangelogEntry version="1.2.2">
+
+This is a bigger update touching many improvements, changes to navigation, better battery life, and other features. We recommend everyone to update.
+
+> [!NOTE]
+> This update changes how the e-paper display works. It might take 1-3 days for your clock to adapt to the new update, and the display might look faded in the black areas but will return to normal afterwards. This process is due to physical ink particles needing to be adjusted by the new changes. You can also use the new [Recovery mode](/Troubleshooting/Recovery_mode) for a faster recovery process.
+
+- New navigation
+- Better e-paper display handling resulting in less ghosting and sharper image.
+- Improved battery life - now lasting 2 weeks on a single charge.
+- Live preview of sounds while adjusting volume.
+- New Philips Hue sunrise scene with dynamic colors ("Habity sunrise scene")
+- Cancel snooze by double-pressing stop button.
+- Exposing Wind Down event and light toggle in Home Assistant.
+- Better one-handed operations: You can now use the snooze button to select items in settings.
+- Alarm tones ring for a longer period before stopping.
+- New 12h duration for sleep sounds.
+- New Wind down reminder with slow pulsing light.
+- Improved stability.
+
+</ChangelogEntry>
+
+<ChangelogEntry version="1.1.1">
+
+- General stability improvements.
+- Philips Hue improvement to load scenes.
+
+</ChangelogEntry>
+
+<ChangelogEntry version="1.1.0">
+
+- Better navigation: The speed of the selector wheel, setting time, and selecting items have been improved and are now snappier than ever.
+- Philips Hue wake-light is now in sync with the alarm status (enabled/disabled).
+- Stability and 'e-paper ghosting' improvements.
+
+</ChangelogEntry>
+
+<ChangelogEntry version="1.0.7">
+
+- Fixes issue with alarms not being saved and alarms being deactivated.
+- Resolves performance issues when powered by battery.
+- The stop button now toggles on/off the next alarm when double-pressed in Repeat daily and Weekday schedule mode.
+- Double-press stop to cancel a snooze timer.
+- Improves battery efficiency in travel lock mode.
+
+Previously added:
+
+- Light brightness control.
+
+</ChangelogEntry>

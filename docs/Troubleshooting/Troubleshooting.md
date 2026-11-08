@@ -2,7 +2,7 @@
 
 Follow the guides below to troubleshoot an issue with your clock.
 
-## Issue: No sound
+<IssueItem title="No sound">
 
 Your clock might not have enough power to play audio. Please connect to a USB power source, and make sure the clock is registering it (the battery icon in upper left corner will disappear when the device switches to mains power).
 
@@ -11,14 +11,18 @@ Try again after the clock has been charging for some time.
 > [!NOTE]
 > No sounds at all? [See here how to do a complete reset](/Troubleshooting/Complete_reset) to bring back the sounds.
 
-## Issue: Unresponsive / Frozen
+</IssueItem>
+
+<IssueItem title="Unresponsive / Frozen">
 
 If your clock is unresponsive or the display is stuck try rebooting the clock.
 Locate the pinhole reboot button next to the USB-C port on the back and press it once.
 
 This action won't delete any of your settings.
 
-## Issue: Clock just displays "habity"
+</IssueItem>
+
+<IssueItem title="Clock just displays &quot;habity&quot;">
 
 If the display only has the habity logo displayed and no response from the buttons your clock might be in travel lock or out of battery.
 
@@ -26,7 +30,9 @@ In both cases; try to connect the clock to USB power and wait at least 30 minute
 
 If you are still experiencing issues after the clock has been connected to power for more than 30 minutes you may try to press the reboot button next to the USB-C port.
 
-## Issue: Display is faded
+</IssueItem>
+
+<IssueItem title="Display is faded">
 
 If you can see old information on your clock's display, for example text in a light grey color, it means your epaper display needs to refresh.
 
@@ -37,14 +43,17 @@ The clock will do a full refresh every 30 minutes, and when it switches to idle 
 Direct sunlight or extreme heat can cause the display to temporarily fade, and it is recommended to keep away from direct sunlight.
 
 > [!NOTE]
-> If the faded display happend after updating to version 1.2.0 then you want to try the [complete reset method](/Troubleshooting/Complete_reset).
+> If the faded display happened after updating to version 1.2.0 then you want to try the [complete reset method](/Troubleshooting/Complete_reset).
 
-## Reconnect to Wi-Fi after power outages
+</IssueItem>
+
+<IssueItem title="Reconnect to Wi-Fi after power outages">
 
 If your home Wi-Fi goes down and disconnects from your clock you can trigger a new network search by disconnecting it from USB power temporarily. Once your clock connects back to USB power it will try to look for any known Wi-Fi network and try to reconnect.
 
+</IssueItem>
 
-# Other issues
+## Other issues
 
 > [!NOTE]
 > Do you have an unresolved issue? Please reach out to the support at <support@habity.design>

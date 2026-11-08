@@ -136,8 +136,9 @@ export default {
   --as-divider: var(--vp-c-divider, #d8d4be);
   --as-accent: var(--vp-c-brand-1, #f3bb14);
   --as-on-accent: var(--vp-button-brand-text, #252421);
-  --as-screen: #1f1e1b;
-  --as-screen-ink: #f0ead8;
+  /* e-paper display: always white with dark ink, in both themes */
+  --as-screen: #ffffff;
+  --as-screen-ink: #1c1b19;
   color: var(--as-ink);
   margin: 24px 0;
 }
