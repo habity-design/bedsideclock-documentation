@@ -2,4 +2,4 @@
 
 Follow this guide to set up alarms on your bedside clock.
 
-<AlarmSteps />
+<AlarmSteps/>

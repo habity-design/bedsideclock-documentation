@@ -74,9 +74,7 @@
           <p class="as-text">Alarms in the next 24 hours show below the current time, in order. If the wind down reminder is on, it shows there too.</p>
           <div class="as-face" role="img" aria-label="Clock face showing 23:14 with the next alarm at 07:00 below">
             <span class="as-face-time">23:14</span>
-            <span class="as-face-alarm">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15z M10 20.5a2 2 0 0 0 4 0" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></svg>
-              07:00
+            <span class="as-face-alarm">07:00
             </span>
           </div>
           <div class="as-help">
