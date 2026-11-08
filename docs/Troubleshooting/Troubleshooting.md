@@ -47,12 +47,6 @@ Direct sunlight or extreme heat can cause the display to temporarily fade, and i
 
 </IssueItem>
 
-<IssueItem title="Reconnect to Wi-Fi after power outages">
-
-If your home Wi-Fi goes down and disconnects from your clock you can trigger a new network search by disconnecting it from USB power temporarily. Once your clock connects back to USB power it will try to look for any known Wi-Fi network and try to reconnect.
-
-</IssueItem>
-
 ## Other issues
 
 > [!NOTE]
