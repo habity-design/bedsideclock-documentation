@@ -37,6 +37,12 @@ features:
     title: How to update
     details: Keep your clock running smoothly with the latest features and fixes.
     link: /More/How_to_update.html
+  - icon: 🧑‍💻
+    title: USB Updater
+    details: Update your clock and change its settings from a computer over USB.
+    link: https://connect.habity.design
+    target: _blank
+    rel: noopener
   - icon: 🛠️
     title: Troubleshooting
     details: Running into an issue? Find quick fixes for common problems.
