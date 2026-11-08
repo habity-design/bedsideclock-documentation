@@ -2,6 +2,8 @@
 
 Learn about the different controls on your bedside clock. [![controls.png](https://github.com/habity-design/bedsideclock-documentation/raw/main/docs/Assets/controls.png)](/habity-design/bedsideclock-documentation/blob/main/docs/Assets/controls.png)
 
+<ClockControls />
+
 ## Stop button
 
 The stop button primarily functions as a stop button for active alarms.
