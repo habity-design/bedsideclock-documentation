@@ -83,7 +83,7 @@ const BUTTONS = [
       { g: 'press', ring: true, label: 'Stop the alarm', detail: 'Press once to stop the alarm from playing.' },
       { g: 'press', when: 'Anytime', label: 'Nightlight on/off', detail: 'When no alarm is playing, Stop toggles the built-in nightlight.' },
       { g: 'double', when: 'Alarm set', label: 'Turn next alarm off/on', detail: 'If your next alarm shows under the time, double-press to disable it. Double-press again to enable it.' },
-      { g: 'double', ring: true, when: 'Snoozed', label: 'Cancel snooze', detail: 'Ends the snooze timer and disables the alarm. Double-press again to enable it.' }
+      { g: 'double', ring: true, when: 'Snoozed', label: 'Cancel snooze', detail: 'Ends the snooze timer and disables the alarm.' }
     ]
   },
   {
