@@ -8,6 +8,10 @@ You can check for updates on [connect.habity.design](https://connect.habity.desi
 2. Go to connect.habity.design in your browser.
 3. Navigate to the "updates" tab and check & install new updates.
 
+<p class="hb-cta-wrap">
+  <a class="hb-cta" href="https://connect.habity.design" target="_blank" rel="noopener">Go to connect.habity.design</a>
+</p>
+
 
 ## Update using your phone
 ### Prerequisites
