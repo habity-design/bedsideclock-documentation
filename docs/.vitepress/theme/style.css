@@ -293,3 +293,35 @@ h1, h2, h3, h4, h5, h6,
   border-radius: 16px !important;
   box-shadow: 0 24px 48px rgba(0,0,0,0.15) !important;
 }
+/* ── CTA BUTTON ─────────────────────────────────────── */
+/* Usage in Markdown:
+   <p class="hb-cta-wrap"><a class="hb-cta" href="https://…">Label</a></p>
+   !important is needed to beat the .vp-doc a rules under DOC LINKS. */
+.vp-doc .hb-cta-wrap {
+  margin: 24px 0 8px;
+}
+
+.vp-doc a.hb-cta {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 999px;
+  background-color: #F3BB14;
+  color: #252421 !important;
+  font-size: 16px;
+  font-weight: 600 !important;
+  line-height: 1.2;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease;
+}
+
+.vp-doc a.hb-cta:hover {
+  background-color: #ffd23f;
+  color: #252421 !important;
+}
+
+@media (max-width: 640px) {
+  .vp-doc a.hb-cta {
+    display: block;
+    text-align: center;
+  }
+}

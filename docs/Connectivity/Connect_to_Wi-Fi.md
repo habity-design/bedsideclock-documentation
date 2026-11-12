@@ -8,6 +8,10 @@ You can set up Wi-Fi at [connect.habity.design](https://connect.habity.design).
 2. Go to connect.habity.design in your browser.
 3. Select your Wi-Fi network and follow the on-screen instructions.
 
+<p class="hb-cta-wrap">
+  <a class="hb-cta" href="https://connect.habity.design" target="_blank" rel="noopener">Go to connect.habity.design</a>
+</p>
+
 
 ## Set up Wi-Fi from your phone
 
