@@ -14,9 +14,9 @@
 <template>
   <details class="cl" :open="latest">
     <summary class="cl-sum">
-      <span class="cl-version">Update {{ version }}</span>
-      <span v-if="latest" class="cl-badge">Latest</span>
-      <span v-if="count" class="cl-count">{{ count }} {{ count === 1 ? 'change' : 'changes' }}</span>
+      <span class="cl-version">{{ t.update }} {{ version }}</span>
+      <span v-if="latest" class="cl-badge">{{ t.latest }}</span>
+      <span v-if="count" class="cl-count">{{ count }} {{ count === 1 ? t.change : t.changes }}</span>
       <svg class="cl-chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
     </summary>
     <div ref="body" class="cl-body">
@@ -26,8 +26,20 @@
 </template>
 
 <script>
+import { computed } from 'vue'
+import { useLocale } from '../i18n.js'
+
+const TEXT = {
+  en: { update: 'Update', latest: 'Latest', change: 'change', changes: 'changes' },
+  de: { update: 'Update', latest: 'Neueste', change: 'Änderung', changes: 'Änderungen' }
+}
+
 export default {
   name: 'ChangelogEntry',
+  setup() {
+    const { code } = useLocale()
+    return { t: computed(() => TEXT[code.value]) }
+  },
   props: {
     version: { type: String, required: true },
     latest: { type: Boolean, default: false }

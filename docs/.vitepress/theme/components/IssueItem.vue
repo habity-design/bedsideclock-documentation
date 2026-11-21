@@ -35,7 +35,9 @@ export default {
   },
   computed: {
     slug() {
-      return this.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+      return this.title.toLowerCase()
+        .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss')
+        .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
     }
   },
   mounted() {

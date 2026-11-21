@@ -7,7 +7,7 @@
 -->
 <template>
   <div class="hc">
-    <div class="hc-tabs" role="tablist" aria-label="Choose a button" @keydown="onKey">
+    <div class="hc-tabs" role="tablist" :aria-label="t.tabsLabel" @keydown="onKey">
       <button
         v-for="b in buttons"
         :key="b.id"
@@ -43,7 +43,7 @@
         <ul class="hc-list">
           <li v-for="a in grp.actions" :key="a.label" class="hc-card">
             <span class="hc-g" v-html="icons[a.g]" aria-hidden="true"></span>
-            <span class="hc-gname">{{ gestures[a.g] }}</span>
+            <span class="hc-gname">{{ t.gestures[a.g] }}</span>
             <span v-if="a.when" class="hc-when">{{ a.when }}</span>
             <strong class="hc-title">{{ a.label }}</strong>
             <span class="hc-detail">{{ a.detail }}</span>
@@ -52,18 +52,13 @@
       </section>
     </div>
 
-    <p class="hc-foot">Any press lights up the display for 10 seconds.</p>
+    <p class="hc-foot">{{ t.foot }}</p>
   </div>
 </template>
 
 <script>
-const GESTURES = {
-  press: 'Press',
-  double: 'Double press',
-  hold: 'Press and hold',
-  hold5: 'Hold 5 seconds',
-  turn: 'Turn'
-}
+import { computed } from 'vue'
+import { useLocale } from '../i18n.js'
 
 const ICONS = {
   press: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5" fill="currentColor"/></svg>',
@@ -73,55 +68,99 @@ const ICONS = {
   turn: '<svg viewBox="0 0 24 24"><path d="M5 12a7 7 0 1 0 2.1-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 3v4.5H11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 }
 
-const BUTTONS = [
-  {
-    id: 'stop',
-    short: 'Stop',
-    icon: '<svg viewBox="0 0 40 24"><circle cx="20" cy="12" r="8.5" fill="currentColor" fill-opacity=".14" stroke="currentColor" stroke-width="1.6"/></svg>',
-    where: 'The small round button on top.',
-    actions: [
-      { g: 'press', ring: true, label: 'Stop the alarm', detail: 'Press once to stop the alarm from playing.' },
-      { g: 'press', when: 'Anytime', label: 'Nightlight on/off', detail: 'When no alarm is playing, Stop toggles the built-in nightlight.' },
-      { g: 'double', when: 'Alarm set', label: 'Turn next alarm off/on', detail: 'If your next alarm shows under the time, double-press to disable it. Double-press again to enable it.' },
-      { g: 'double', ring: true, when: 'Snoozed', label: 'Cancel snooze', detail: 'Ends the snooze timer and disables the alarm.' }
+const BUTTON_ICONS = {
+  stop: '<svg viewBox="0 0 40 24"><circle cx="20" cy="12" r="8.5" fill="currentColor" fill-opacity=".14" stroke="currentColor" stroke-width="1.6"/></svg>',
+  snooze: '<svg viewBox="0 0 40 24"><rect x="3" y="7.5" width="34" height="9" rx="4.5" fill="currentColor" fill-opacity=".14" stroke="currentColor" stroke-width="1.6"/></svg>',
+  selector: '<svg viewBox="0 0 40 24"><rect x="13" y="1.5" width="10" height="21" rx="5" fill="currentColor" fill-opacity=".14" stroke="currentColor" stroke-width="1.6"/><path d="M29.5 4Q37 12 29.5 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M26.3 4L30.3 1.5V6.5ZM26.3 20L30.3 17.5V22.5Z" fill="currentColor"/></svg>'
+}
+
+const TEXT = {
+  en: {
+    tabsLabel: 'Choose a button',
+    foot: 'Any press lights up the display for 10 seconds.',
+    ringing: 'While the alarm is ringing',
+    other: 'Other times',
+    gestures: { press: 'Press', double: 'Double press', hold: 'Press and hold', hold5: 'Hold 5 seconds', turn: 'Turn' },
+    buttons: [
+      {
+        id: 'stop', short: 'Stop', where: 'The small round button on top.',
+        actions: [
+          { g: 'press', ring: true, label: 'Stop the alarm', detail: 'Press once to stop the alarm from playing.' },
+          { g: 'press', when: 'Anytime', label: 'Nightlight on/off', detail: 'When no alarm is playing, Stop toggles the built-in nightlight.' },
+          { g: 'double', when: 'Alarm set', label: 'Turn next alarm off/on', detail: 'If your next alarm shows under the time, double-press to disable it. Double-press again to enable it.' },
+          { g: 'double', ring: true, when: 'Snoozed', label: 'Cancel snooze', detail: 'Ends the snooze timer and disables the alarm.' }
+        ]
+      },
+      {
+        id: 'snooze', short: 'Snooze', whiteIcons: true, where: 'The long bar on top.',
+        actions: [
+          { g: 'press', ring: true, label: 'Snooze 5 minutes', detail: 'You can snooze as many times as you need. To cancel the snooze, double-press Stop.' },
+          { g: 'double', when: 'Anytime', label: 'Play sleep sounds', detail: 'Starts your last used sleep sound. A zZ icon shows in the upper right corner. Turn the selector to adjust the volume.' },
+          { g: 'press', when: 'Sounds playing', label: 'Pause sounds', detail: 'Pauses sleep sounds or wind down sounds.' }
+        ]
+      },
+      {
+        id: 'selector', short: 'Selector', whiteIcons: true, where: 'The wheel on the right side. Turn it or press it in.',
+        actions: [
+          { g: 'press', when: 'Anytime', label: 'Open settings', detail: 'Press once to enter the settings menu. In a menu, press to select the highlighted item.' },
+          { g: 'turn', when: 'In settings', label: 'Move through the menu', detail: 'Turn to move between items.' },
+          { g: 'hold', when: 'In a menu', label: 'Return to home', detail: 'Press and hold to jump straight back to the clock from any submenu.' }
+        ]
+      }
     ]
   },
-  {
-    id: 'snooze',
-    short: 'Snooze',
-    whiteIcons: true,
-    icon: '<svg viewBox="0 0 40 24"><rect x="3" y="7.5" width="34" height="9" rx="4.5" fill="currentColor" fill-opacity=".14" stroke="currentColor" stroke-width="1.6"/></svg>',
-    where: 'The long bar on top.',
-    actions: [
-      { g: 'press', ring: true, label: 'Snooze 5 minutes', detail: 'You can snooze as many times as you need. To cancel the snooze, double-press Stop.' },
-      { g: 'double', when: 'Anytime', label: 'Play sleep sounds', detail: 'Starts your last used sleep sound. A zZ icon shows in the upper right corner. Turn the selector to adjust the volume.' },
-      { g: 'press', when: 'Sounds playing', label: 'Pause sounds', detail: 'Pauses sleep sounds or wind down sounds.' }
-    ]
-  },
-  {
-    id: 'selector',
-    short: 'Selector',
-    whiteIcons: true,
-    icon: '<svg viewBox="0 0 40 24"><rect x="13" y="1.5" width="10" height="21" rx="5" fill="currentColor" fill-opacity=".14" stroke="currentColor" stroke-width="1.6"/><path d="M29.5 4Q37 12 29.5 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M26.3 4L30.3 1.5V6.5ZM26.3 20L30.3 17.5V22.5Z" fill="currentColor"/></svg>',
-    where: 'The wheel on the right side. Turn it or press it in.',
-    actions: [
-      { g: 'press', when: 'Anytime', label: 'Open settings', detail: 'Press once to enter the settings menu. In a menu, press to select the highlighted item.' },
-      { g: 'turn', when: 'In settings', label: 'Move through the menu', detail: 'Turn to move between items.' },
-      { g: 'hold', when: 'In a menu', label: 'Return to home', detail: 'Press and hold to jump straight back to the clock from any submenu.' }
+  de: {
+    tabsLabel: 'Taste auswählen',
+    foot: 'Jeder Tastendruck schaltet die Displaybeleuchtung für 10 Sekunden ein.',
+    ringing: 'Während der Alarm klingelt',
+    other: 'Zu anderen Zeiten',
+    gestures: { press: 'Drücken', double: 'Doppelt drücken', hold: 'Gedrückt halten', hold5: '5 Sekunden halten', turn: 'Drehen' },
+    buttons: [
+      {
+        id: 'stop', short: 'Stopp', where: 'Die kleine runde Taste oben.',
+        actions: [
+          { g: 'press', ring: true, label: 'Alarm beenden', detail: 'Einmal drücken, um den Alarm zu beenden.' },
+          { g: 'press', when: 'Jederzeit', label: 'Nachtlicht ein/aus', detail: 'Wenn kein Alarm klingelt, schaltet die Stopp-Taste das integrierte Nachtlicht ein und aus.' },
+          { g: 'double', when: 'Alarm eingestellt', label: 'Nächsten Alarm aus-/einschalten', detail: 'Wenn dein nächster Alarm unter der Uhrzeit angezeigt wird, doppelt drücken, um ihn auszuschalten. Erneut doppelt drücken, um ihn wieder einzuschalten.' },
+          { g: 'double', ring: true, when: 'Im Snooze', label: 'Snooze abbrechen', detail: 'Beendet den Snooze-Timer und schaltet den Alarm aus.' }
+        ]
+      },
+      {
+        id: 'snooze', short: 'Snooze', whiteIcons: true, where: 'Die lange Leiste oben.',
+        actions: [
+          { g: 'press', ring: true, label: '5 Minuten Snooze', detail: 'Du kannst den Alarm beliebig oft aufschieben. Um den Snooze abzubrechen, doppelt auf Stopp drücken.' },
+          { g: 'double', when: 'Jederzeit', label: 'Schlafgeräusche abspielen', detail: 'Startet das zuletzt verwendete Schlafgeräusch. Oben rechts erscheint ein zZ-Symbol. Dreh das Auswahlrad, um die Lautstärke anzupassen.' },
+          { g: 'press', when: 'Während Geräusche laufen', label: 'Geräusche pausieren', detail: 'Pausiert Schlafgeräusche oder die Geräusche der Schlafenszeit-Erinnerung.' }
+        ]
+      },
+      {
+        id: 'selector', short: 'Auswahlrad', whiteIcons: true, where: 'Das Rad an der rechten Seite. Du kannst es drehen oder hineindrücken.',
+        actions: [
+          { g: 'press', when: 'Jederzeit', label: 'Einstellungen öffnen', detail: 'Einmal drücken, um das Einstellungsmenü zu öffnen. In einem Menü drücken, um den markierten Eintrag auszuwählen.' },
+          { g: 'turn', when: 'In den Einstellungen', label: 'Durch das Menü navigieren', detail: 'Drehen, um zwischen den Einträgen zu wechseln.' },
+          { g: 'hold', when: 'In einem Menü', label: 'Zurück zur Uhr', detail: 'Gedrückt halten, um aus jedem Untermenü direkt zur Uhrzeitanzeige zurückzukehren.' }
+        ]
+      }
     ]
   }
-]
+}
 
 export default {
   name: 'ClockControls',
+  setup() {
+    const { code } = useLocale()
+    const t = computed(() => TEXT[code.value])
+    const buttons = computed(() => t.value.buttons.map(b => ({ ...b, icon: BUTTON_ICONS[b.id] })))
+    return { t, buttons }
+  },
   data() {
-    return { buttons: BUTTONS, gestures: GESTURES, icons: ICONS, selected: 'stop' }
+    return { icons: ICONS, selected: 'stop' }
   },
   methods: {
     groups(b) {
       return [
-        { title: 'While the alarm is ringing', actions: b.actions.filter(a => a.ring) },
-        { title: 'Other times', actions: b.actions.filter(a => !a.ring) }
+        { title: this.t.ringing, actions: b.actions.filter(a => a.ring) },
+        { title: this.t.other, actions: b.actions.filter(a => !a.ring) }
       ].filter(g => g.actions.length)
     },
     onKey(e) {

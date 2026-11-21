@@ -3,6 +3,107 @@ export default {
   description: "Set up your Habity bedside clock and make the most of every morning. Find guides, tips, and everything you need to get started.",
   base: '/',
   appearance: 'auto',
+
+  // Languages: English at the root, German under /de/
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en-US'
+    },
+    de: {
+      label: 'Deutsch',
+      lang: 'de-DE',
+      link: '/de/',
+      title: 'Habity-Wecker – Anleitung & Support',
+      description: 'Richte deinen Habity-Wecker ein und mach das Beste aus jedem Morgen. Hier findest du Anleitungen, Tipps und alles, was du für den Start brauchst.',
+      themeConfig: {
+        nav: [
+          { text: 'Start', link: '/de/' },
+          { text: 'Erste Schritte', link: '/de/Getting_started/First_setup' },
+          { text: 'habity.design', link: 'https://habity.design/de', target: '_blank' }
+        ],
+
+        sidebar: [
+          {
+            text: 'Erste Schritte',
+            items: [
+              { text: 'Ersteinrichtung', link: '/de/Getting_started/First_setup' },
+              { text: 'Bedienung', link: '/de/Getting_started/Controls' }
+            ]
+          },
+          {
+            text: 'Alarm',
+            items: [
+              { text: 'Alarm einstellen', link: '/de/Alarm/How_to_set_my_alarm' }
+            ]
+          },
+          {
+            text: 'Schlafenszeit',
+            items: [
+              { text: 'Schlafenszeit-Erinnerung', link: '/de/Wind_down/Wind_down_reminder' }
+            ]
+          },
+          {
+            text: 'Schlafgeräusche',
+            items: [
+              { text: 'Schlafgeräusche', link: '/de/Sleep_sounds/Sleep_sounds' }
+            ]
+          },
+          {
+            text: 'Konnektivität',
+            items: [
+              { text: 'Mit WLAN verbinden', link: '/de/Connectivity/Connect_to_Wi-Fi' },
+              { text: 'Philips Hue', link: '/de/Connectivity/Philips_Hue' },
+              { text: 'Home Assistant', link: '/de/Connectivity/Home_Assistant' },
+              { text: 'Homey', link: '/de/Connectivity/Homey' }
+            ]
+          },
+          {
+            text: 'Weitere Funktionen',
+            items: [
+              { text: 'Ruhebildschirm', link: '/de/More/Idle_screen' },
+              { text: 'Reisesperre', link: '/de/More/Travel_lock' },
+              { text: 'Firmware aktualisieren', link: '/de/More/How_to_update' },
+              { text: 'Tipps', link: '/de/More/Tips' }
+            ]
+          },
+          {
+            text: 'Fehlerbehebung',
+            items: [
+              { text: 'Fehlerbehebung', link: '/de/Troubleshooting/Troubleshooting' },
+              { text: 'Auf Werkseinstellungen zurücksetzen', link: '/de/Troubleshooting/Factory_reset' }
+            ]
+          }
+        ],
+
+        footer: {
+          message: `
+            <a href="https://habity.design/de" target="_blank">habity.design</a> ·
+            <a href="https://habity.design/de/pages/contact" target="_blank">Kontakt & Support</a> ·
+            <a href="https://habity.design/de/policies/privacy-policy" target="_blank">Datenschutzerklärung</a>
+          `,
+          copyright: '© 2026 Habity ApS – Entworfen in Kopenhagen'
+        },
+
+        outline: { label: 'Auf dieser Seite' },
+        docFooter: { prev: 'Vorherige Seite', next: 'Nächste Seite' },
+        lastUpdated: { text: 'Zuletzt aktualisiert' },
+        returnToTopLabel: 'Nach oben',
+        sidebarMenuLabel: 'Menü',
+        darkModeSwitchLabel: 'Darstellung',
+        lightModeSwitchTitle: 'Zum hellen Modus wechseln',
+        darkModeSwitchTitle: 'Zum dunklen Modus wechseln',
+        langMenuLabel: 'Sprache ändern',
+        skipToContentLabel: 'Zum Inhalt springen',
+        notFound: {
+          title: 'SEITE NICHT GEFUNDEN',
+          quote: 'Diese Seite gibt es leider nicht.',
+          linkLabel: 'Zur Startseite',
+          linkText: 'Zur Startseite'
+        }
+      }
+    }
+  },
   head: [
 [
   'script',
@@ -23,7 +124,31 @@ export default {
     siteTitle: false,
 
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        locales: {
+          de: {
+            translations: {
+              button: { buttonText: 'Suchen', buttonAriaLabel: 'Suchen' },
+              modal: {
+                displayDetails: 'Details anzeigen',
+                resetButtonTitle: 'Suche zurücksetzen',
+                backButtonTitle: 'Suche schließen',
+                noResultsText: 'Keine Ergebnisse für',
+                footer: {
+                  selectText: 'Auswählen',
+                  selectKeyAriaLabel: 'Eingabetaste',
+                  navigateText: 'Navigieren',
+                  navigateUpKeyAriaLabel: 'Pfeil nach oben',
+                  navigateDownKeyAriaLabel: 'Pfeil nach unten',
+                  closeText: 'Schließen',
+                  closeKeyAriaLabel: 'Escape'
+                }
+              }
+            }
+          }
+        }
+      }
     },
 
     socialLinks: [
@@ -94,7 +219,7 @@ export default {
     footer: {
       message: `
         <a href="https://habity.design" target="_blank">habity.design</a> ·
-        <a href="https://habity.design/page/contact" target="_blank">Contact & Support</a> ·
+        <a href="https://habity.design/pages/contact" target="_blank">Contact & Support</a> ·
         <a href="https://habity.design/policies/privacy-policy" target="_blank">Privacy Policy</a>
       `,
       copyright: '© 2026 Habity ApS — Designed in Copenhagen'
