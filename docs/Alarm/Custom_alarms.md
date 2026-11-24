@@ -57,7 +57,8 @@ Go to "Alarm" > "Set alarm" and select the alarm schedule you want to change.
 **Set days** Change the days the alarm goes off.
 
 <div class="hb-screens">
-  <figure><img src="/screens/custom-alarms/alarm-edit.png" alt="Alarm settings for the 06:30 alarm"><figcaption>Each alarm has its own settings.</figcaption></figure></div>
+  <figure><img src="/screens/custom-alarms/alarm-edit.png" alt="Alarm settings for the 06:30 alarm"><figcaption>Each alarm has its own settings.</figcaption></figure>
+</div>
 
 ## Delete an alarm
 
