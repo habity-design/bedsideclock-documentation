@@ -325,3 +325,42 @@ h1, h2, h3, h4, h5, h6,
     text-align: center;
   }
 }
+
+/* ── CLOCK SCREENS ──────────────────────────────────── */
+/* Usage in Markdown:
+   <div class="hb-screens"><figure><img src="/screens/…png" alt="…"><figcaption>…</figcaption></figure></div>
+   Real 416×240 e-paper renders, shown in a dark bezel so the white screen
+   reads as the display in both themes. */
+.vp-doc .hb-screens {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 16px 0 24px;
+}
+
+.vp-doc .hb-screens figure {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+
+.vp-doc .hb-screens img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background: #fff;
+  border: 6px solid #252421;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.dark .vp-doc .hb-screens img {
+  border-color: #45423b;
+}
+
+.vp-doc .hb-screens figcaption {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+}
